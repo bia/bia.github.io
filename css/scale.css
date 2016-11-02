@@ -67,22 +67,6 @@ img, embed, object, video {
   _width: 100%;
   }
 
-#embedagram-photos {
-	text-align: center;
-	opacity: 0.5;
-}
-
-#embedagram-photos .gram {
-	display: inline-block;
-}
-
-#embedagram-photos .gram a img {
-	margin-right: 1px;
-	margin-bottom: 1px;
-	vertical-align: middle;
-	width: 8.4em;
-}
-
 /*
   SELECTIONS
 --------------------------------------------- */
