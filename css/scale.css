@@ -73,7 +73,7 @@ img, embed, object, video {
 
 .column {
   flex: 33.33%;
-  margin: 3px;
+  margin: 2px;
   opacity: 80%;
   position: relative;
 }
