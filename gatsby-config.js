@@ -7,13 +7,13 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-emma-core/gatsby-config.js
-    siteTitle: `De Volta`,
+    siteTitle: `DE VOLTA`,
     siteTitleAlt: `De Volta`,
     siteHeadline: `De Volta is Gustavo Aguado, Bianca Cheng, Fabián Galico, and Adriano Valenzuela.`,
     siteUrl: `https://bia.github.io/`,
     siteDescription: `De Volta is Gustavo Aguado, Bianca Cheng, Fabián Galico, and Adriano Valenzuela.`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
+    siteImage: `/devolta-banner.jpg`,
     author: `@bia`,
   },
   plugins: [
