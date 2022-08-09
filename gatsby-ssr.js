@@ -13,6 +13,14 @@ export const onRenderBody = ({ setHeadComponents }) => {
       crossOrigin="anonymous"
     />,
     <link
+    key="Bariol-Light"
+    rel="preload"
+    href="/fonts/bariol_light-webfont.woff"
+    as="font"
+    type="font/woff"
+    crossOrigin="anonymous"
+  />,
+    <link
       key="Bariol-Italic"
       rel="preload"
       href="/fonts/bariol_regular_italic-webfont.woff"

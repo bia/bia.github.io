@@ -23,7 +23,7 @@ const Header = ({ meta, nav }: HeaderProps) => {
       {!navEmpty && <Navigation nav={nav} />}
       <Flex
         sx={{
-          fontWeight: `bold`,
+          fontWeight: `regular`,
           fontSize: 4,
           letterSpacing: 5,
           flex: navEmpty ? 1 : [`1 0 50%`, 1],

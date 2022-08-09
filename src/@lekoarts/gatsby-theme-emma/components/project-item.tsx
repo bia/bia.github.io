@@ -9,7 +9,7 @@ type ProjectItemProps = {
     color: string
     title: string
     slug: string
-    service: string
+    // service: string
     client: string
     cover: {
       childImageSharp: {
@@ -89,8 +89,8 @@ const ProjectItem = ({ node, style, eager }: ProjectItemProps) => (
             zIndex: -2,
           }}
         />
-        <div sx={{ fontSize: 5, fontWeight: `bold`, letterSpacing: 5, }}>{node.client}</div>
-        <div sx={{ fontSize: 2 }}>{node.service}</div>
+        <div sx={{ fontSize: 5, fontWeight: `Regular`, letterSpacing: 5, }}>{node.client}</div>
+        {/* <div sx={{ fontSize: 2 }}>{node.service}</div> */}
       </Link>
     </div>
   </animated.div>

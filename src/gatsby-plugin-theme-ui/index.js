@@ -2,7 +2,7 @@ import { merge } from "theme-ui"
 import { tailwind } from "@theme-ui/presets"
 
 export default merge(tailwind, {
-  initialColorModeName: `light`,
+  initialColorModeName: `dark`,
   config: {
     useCustomProperties: true,
   },
@@ -63,6 +63,8 @@ export default merge(tailwind, {
     },
     h1: {
       fontSize: [5, 6],
+      fontWeight: 200,
+      letterSpacing: 0,
       mt: 2,
     },
     h2: {
