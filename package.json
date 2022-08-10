@@ -14,7 +14,8 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b main"
+    "deploy": "gatsby build && gh-pages -d public -b main",
+    "preload-fonts": "gatsby-preload-fonts"
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-emma": "^3.0.0",
@@ -22,6 +23,7 @@
     "gatsby-plugin-gatsby-cloud": "^4.18.1",
     "gatsby-plugin-google-analytics": "^4.20.0",
     "gatsby-plugin-manifest": "^4.18.1",
+    "gatsby-plugin-preload-fonts": "^3.20.0",
     "gatsby-plugin-sitemap": "^5.18.1",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.27",
     "react": "^18.0.0",

@@ -10,7 +10,7 @@ module.exports = {
     siteTitle: `DE VOLTA`,
     siteTitleAlt: `DE VOLTA`,
     siteHeadline: `De Volta is Gustavo Aguado, Bianca Cheng, Fabián Galico, and Adriano Valenzuela.`,
-    siteUrl: `https://bia.github.io/`,
+    siteUrl: `http://devoltamusic.com/`,
     siteDescription: `De Volta is Gustavo Aguado, Bianca Cheng, Fabián Galico, and Adriano Valenzuela.`,
     siteLanguage: `en`,
     siteImage: `/devolta-banner.jpg`,
@@ -82,6 +82,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
+    `gatsby-plugin-preload-fonts`,
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
       options: {
