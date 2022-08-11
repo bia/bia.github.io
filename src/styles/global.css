@@ -7,6 +7,10 @@ h1 {
   letter-spacing: 0.5rem;
 }
 
+iframe {
+  aspect-ratio: 16/9;
+}
+
 footer {
   font-size: 0.8rem;
 }

@@ -4,7 +4,7 @@ import Item from "./project-info-item"
 
 type ProjectInfoProps = {
   project: {
-    client: string
+    // client: string
     // date: string
     // service: string
   }
