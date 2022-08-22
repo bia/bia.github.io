@@ -7,34 +7,162 @@ export const onRenderBody = ({ setHeadComponents }) => {
     <link
       key="Bariol-Regular"
       rel="preload"
-      href="/fonts/bariol_regular-webfont.woff"
+      href="/fonts/Bariol-Regular.eot"
       as="font"
-      type="font/woff"
+      type="font/eot"
       crossOrigin="anonymous"
     />,
+        <link
+          key="Bariol-Regular"
+          rel="preload"
+          href="/fonts/Bariol-Regular.otf"
+          as="font"
+          type="font/otf"
+          crossOrigin="anonymous"
+        />,
+        <link
+          key="Bariol-Regular"
+          rel="preload"
+          href="/fonts/Bariol-Regular.svg"
+          as="font"
+          type="font/svg"
+          crossOrigin="anonymous"
+        />,
+        <link
+          key="Bariol-Regular"
+          rel="preload"
+          href="/fonts/Bariol-Regular.woff"
+          as="font"
+          type="font/woff"
+          crossOrigin="anonymous"
+        />,
+        <link
+          key="Bariol-Regular"
+          rel="preload"
+          href="/fonts/Bariol-Regular.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />,
     <link
-    key="Bariol-Light"
-    rel="preload"
-    href="/fonts/bariol_light-webfont.woff"
-    as="font"
-    type="font/woff"
-    crossOrigin="anonymous"
-  />,
-    <link
-      key="Bariol-Italic"
+      key="Bariol-Light"
       rel="preload"
-      href="/fonts/bariol_regular_italic-webfont.woff"
+      href="/fonts/Bariol-Light.eot"
       as="font"
-      type="font/woff"
+      type="font/eot"
       crossOrigin="anonymous"
     />,
+        <link
+          key="Bariol-Light"
+          rel="preload"
+          href="/fonts/Bariol-Light.otf"
+          as="font"
+          type="font/otf"
+          crossOrigin="anonymous"
+        />,
+        <link
+          key="Bariol-Light"
+          rel="preload"
+          href="/fonts/Bariol-Light.svg"
+          as="font"
+          type="font/svg"
+          crossOrigin="anonymous"
+        />,
+        <link
+          key="Bariol-Light"
+          rel="preload"
+          href="/fonts/Bariol-Light.woff"
+          as="font"
+          type="font/woff"
+          crossOrigin="anonymous"
+        />,
+        <link
+          key="Bariol-Light"
+          rel="preload"
+          href="/fonts/Bariol-Light.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />,
+    <link
+      key="BariolRegular-Italic"
+      rel="preload"
+      href="/fonts/BariolRegular-Italic.eot"
+      as="font"
+      type="font/eot"
+      crossOrigin="anonymous"
+    />,
+        <link
+          key="BariolRegular-Italic"
+          rel="preload"
+          href="/fonts/BariolRegular-Italic.otf"
+          as="font"
+          type="font/otf"
+          crossOrigin="anonymous"
+        />,
+        <link
+          key="BariolRegular-Italic"
+          rel="preload"
+          href="/fonts/BariolRegular-Italic.svg"
+          as="font"
+          type="font/svg"
+          crossOrigin="anonymous"
+        />,
+        <link
+          key="BariolRegular-Italic"
+          rel="preload"
+          href="/fonts/BariolRegular-Italic.woff"
+          as="font"
+          type="font/woff"
+          crossOrigin="anonymous"
+        />,
+        <link
+          key="BariolRegular-Italic"
+          rel="preload"
+          href="/fonts/BariolRegular-Italic.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />,
     <link
       key="Bariol-Bold"
       rel="preload"
-      href="/fonts/bariol_bold-webfont.woff"
+      href="/fonts/Bariol-Bold.eot"
       as="font"
-      type="font/woff"
+      type="font/eot"
       crossOrigin="anonymous"
-    />
+   />,
+      <link
+        key="Bariol-Bold"
+        rel="preload"
+        href="/fonts/Bariol-Bold.otf"
+        as="font"
+        type="font/otf"
+        crossOrigin="anonymous"
+      />,
+      <link
+        key="Bariol-Bold"
+        rel="preload"
+        href="/fonts/Bariol-Bold.svg"
+        as="font"
+        type="font/svg"
+        crossOrigin="anonymous"
+      />,
+      <link
+        key="Bariol-Bold"
+        rel="preload"
+        href="/fonts/Bariol-Bold.woff"
+        as="font"
+        type="font/woff"
+        crossOrigin="anonymous"
+      />,
+      <link
+        key="Bariol-Bold"
+        rel="preload"
+        href="/fonts/Bariol-Bold.woff2"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
   ]);
 };
