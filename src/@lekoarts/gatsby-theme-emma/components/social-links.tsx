@@ -19,7 +19,7 @@ const SocialLinks = () => (
           <circle cx="390.476" cy="121.524" r="30.23"/>
         </svg>
     </a>
-    <a href="https://www.youtube.com/channel/UCC8MKHIpN8AQYBRlk16KszQ/featured" target="_blank" rel="noopener noreferrer" aria-label="Youtube">
+    <a href="https://www.youtube.com/@devoltabarcelona" target="_blank" rel="noopener noreferrer" aria-label="Youtube">
       <svg
         stroke="currentColor"
         fill="currentColor"

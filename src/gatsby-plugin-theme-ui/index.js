@@ -7,14 +7,14 @@ export default merge(tailwind, {
     useCustomProperties: true,
   },
   colors: {
-    primary: tailwind.colors.orange[7],
+    primary: `#734509`,
     secondary: tailwind.colors.indigo[6],
     toggleIcon: tailwind.colors.black,
     modes: {
       dark: {
         text: tailwind.colors.white,
-        primary: tailwind.colors.orange[7],
-        background: tailwind.colors.gray[9],
+        primary: `#734509`,
+        background: `#2b2b2b`,
         textMuted: tailwind.colors.gray[5],
         toggleIcon: tailwind.colors.white,
       },
